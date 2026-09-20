@@ -1,8 +1,0 @@
-{
-  "label": "DOOM",
-  "label.ch.lang": "DOOM",
-  "icon": "icon.png",
-  "iconsel": "icon.png",
-  "launch": "launch.sh",
-  "description": "DOOM 源移植 (原生手柄)"
-}

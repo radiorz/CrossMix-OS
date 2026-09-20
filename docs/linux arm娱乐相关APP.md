@@ -147,8 +147,6 @@ MENU 长按杀进程用 `thd`：`BTN_MODE 1 sleep 1.2;killall -9 mpv;`
 | App | 手柄 | 机子上实际跑什么 |
 |---|---|---|
 | **Moonlight** | 原生 | 固件自带 `/usr/trimui/apps/moonlight`，Select+Start 退出 |
-| **DOOM** | 原生 | 选 `Roms/DOOM` 里的 WAD，走 `Emus/DOOM` |
-| **Quake** | 原生 | 选 `Roms/TYRQUAKE` 里的 PAK，走 TyrQuake |
 | **XMPlayer** | 映射 | 默认：视频/音乐/图片浏览 + mpv + gptokeyb；若放入官方 `XMPlayer.sh` 则优先跑官方包 |
 | **Musikcube** | 映射 | 默认：扫 `Roms/MUSIC` + mpv；若放入 `bin/musikcube` 则在 TermSP 里跑官方 TUI |
 | **Ren'Py** | 映射 | 浏览 `Apps/RenPy/games`、`Roms/RENPY`、`Roms/PORTS`，启动 `launch.sh` |
