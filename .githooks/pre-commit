@@ -1,0 +1,19 @@
+#!/bin/sh
+# Convert staged text files to Unix LF before commit.
+# TrimUI MainUI treats CRLF shebangs as 架构错误.
+repo=$(git rev-parse --show-toplevel) || exit 1
+cd "$repo" || exit 1
+
+py=""
+for c in python3 python; do
+  if command -v "$c" >/dev/null 2>&1; then
+    py=$c
+    break
+  fi
+done
+if [ -z "$py" ]; then
+  echo "pre-commit: python not found, cannot normalize LF" >&2
+  exit 1
+fi
+
+"$py" "$repo/_assets/scripts/fix_lf.py" --staged --quiet

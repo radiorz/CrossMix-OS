@@ -1,5 +1,8 @@
 root = true
 
-[*.{sh,json,py,gptk,conf}]
+[*]
 end_of_line = lf
 insert_final_newline = true
+
+[*.{png,jpg,jpeg,gif,webp,ico,bmp,7z,zip,gz,so,bin,pbp,iso,ttf,otf,mp3,mp4,flac}]
+insert_final_newline = false

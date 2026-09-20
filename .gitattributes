@@ -1,6 +1,28 @@
-# TrimUI MainUI execs *.sh; CRLF shebangs appear as 架构错误.
-*.sh text eol=lf
-*.json text eol=lf
-*.py text eol=lf
-*.gptk text eol=lf
-*.conf text eol=lf
+# Whole tree: text files are Unix LF.
+# TrimUI MainUI execs *.sh; CRLF shebang appears as 架构错误.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.bmp binary
+*.7z binary
+*.zip binary
+*.gz binary
+*.xz binary
+*.so binary
+*.bin binary
+*.elf binary
+*.pbp binary
+*.iso binary
+*.ttf binary
+*.otf binary
+*.mp3 binary
+*.mp4 binary
+*.flac binary
+*.ogg binary
+*.wav binary
+*.pyc binary
