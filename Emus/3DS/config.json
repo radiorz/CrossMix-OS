@@ -1,0 +1,23 @@
+{
+  "label": "3DS",
+  "label.ch.lang": "3DS",
+  "icon": "/mnt/SDCARD/Emus/3DS/icon.png",
+  "background": "/mnt/SDCARD/Backgrounds/Default/3DS.png",
+  "themecolor": "4FC3F7",
+  "iconsel": "",
+  "launch": "default.sh",
+  "rompath": "../../Roms/3DS",
+  "imgpath": "../../Imgs/3DS",
+  "useswap": 1,
+  "shortname": 0,
+  "hidebios": 1,
+  "extlist": "3ds|3dsx|cci|cia|cxi|app|elf|zip|7z",
+  "description": "Azahar / Lime3DS（需自备二进制）",
+  "launchlist": [
+    {
+      "name": "Azahar",
+      "name.ch.lang": "Azahar",
+      "launch": "launch.sh"
+    }
+  ]
+}

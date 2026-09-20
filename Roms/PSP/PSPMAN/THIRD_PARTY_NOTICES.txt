@@ -1,0 +1,77 @@
+PSPMAN third-party notices
+==========================
+
+The licenses below apply only to the corresponding third-party components.
+They do not license PSPMAN's first-party source, visual identity, or brand.
+
+PocketJS
+  MIT License. Copyright the PocketJS contributors.
+  See LICENSES/PocketJS-MIT.txt.
+
+QuickJS
+  MIT License. Copyright Fabrice Bellard and Charlie Gordon.
+  See LICENSES/QuickJS-MIT.txt.
+
+quickjs-rs
+  MIT License. Copyright Christoph Herzog.
+  See LICENSES/quickjs-rs-MIT.txt.
+
+rust-psp and referenced PSPSDK material
+  MIT and BSD-style notices. Copyright Marko Mijalkovic and the named PSPSDK
+  contributors.
+  See LICENSES/rust-psp-MIT-BSD.txt.
+
+SolidJS
+  MIT License. Copyright Ryan Carniato.
+  See LICENSES/SolidJS-MIT.txt.
+
+Taffy and linked Rust dependencies
+  MIT or Apache-2.0 as recorded in the pinned Cargo lockfile and upstream
+  package metadata.
+
+Inter font
+  SIL Open Font License 1.1. Copyright the Inter Project Authors.
+  See LICENSES/Inter-OFL-1.1.txt.
+
+Noto Sans CJK JP
+  SIL Open Font License 1.1. Copyright the Noto Sans CJK Project Authors.
+  See LICENSES/NotoSansCJK-OFL-1.1.txt.
+
+libFLAC 1.5.0
+  Xiph.Org BSD-style license. Copyright Josh Coalson and Xiph.Org Foundation.
+  See LICENSES/libFLAC-BSD.txt.
+
+minimp3 (commit ea99364f61c14656440e8d77e9c233ccf3124633)
+  CC0 1.0 Universal public-domain dedication. Copyright the minimp3 authors.
+  See LICENSES/minimp3-CC0-1.0.txt.
+
+libjpeg-turbo-rs 0.8.0
+  MIT OR Apache-2.0. Copyright Yonghye Kwon.
+  See LICENSES/libjpeg-turbo-rs-0.8.0-MIT.txt and
+  LICENSES/libjpeg-turbo-rs-0.8.0-Apache-2.0.txt.
+
+zune-image PNG support
+  MIT OR Apache-2.0 OR Zlib. Copyright the zune-image developers.
+  See LICENSES/zune-image-MIT.txt, LICENSES/zune-image-Apache-2.0.txt, and
+  LICENSES/zune-image-Zlib.txt.
+
+miniz_oxide 0.8.9
+  MIT License. Copyright RAD Game Tools, Valve Software, Rich Geldreich,
+  Tenacious Software LLC, Frommi, and oyvindln.
+  See LICENSES/miniz_oxide-0.8.9-MIT.txt.
+
+adler2 2.0.1
+  MIT License. Copyright the adler2 authors.
+  See LICENSES/adler2-2.0.1-MIT.txt.
+
+encoding_rs 0.8.35
+  MIT License AND BSD 3-Clause License. Copyright Mozilla Foundation; the
+  incorporated WHATWG encoding data is copyright WHATWG (Apple, Google,
+  Mozilla, Microsoft).
+  See LICENSES/encoding_rs-0.8.35-MIT.txt,
+  LICENSES/encoding_rs-0.8.35-BSD-3-Clause.txt, and
+  LICENSES/encoding_rs-0.8.35-COPYRIGHT.txt.
+
+cfg-if 1.0.4
+  MIT License. Copyright Alex Crichton.
+  See LICENSES/cfg-if-1.0.4-MIT.txt.

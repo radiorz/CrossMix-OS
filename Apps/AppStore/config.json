@@ -1,0 +1,8 @@
+{
+  "label": "AppStore",
+  "label.ch.lang": "应用商店",
+  "icon": "icon.png",
+  "iconsel": "icon.png",
+  "launch": "launch.sh",
+  "description": "用 git 同步 Apps / Emus"
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Musikcube",
+  "label.ch.lang": "Musikcube",
+  "icon": "icon.png",
+  "iconsel": "icon.png",
+  "launch": "launch.sh",
+  "description": "终端音乐播放器 (映射手柄)"
+}

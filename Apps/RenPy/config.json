@@ -1,0 +1,8 @@
+{
+  "label": "Ren'Py",
+  "label.ch.lang": "Ren'Py 视觉小说",
+  "icon": "icon.png",
+  "iconsel": "icon.png",
+  "launch": "launch.sh",
+  "description": "视觉小说启动器 (手柄)"
+}

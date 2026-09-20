@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "crossmix",
+      "name": "CrossMix-OS 官方",
+      "url": "https://github.com/cizia64/CrossMix-OS.git",
+      "branch": "main",
+      "roots": ["Apps", "Emus"],
+      "enabled": true
+    }
+  ],
+  "featured": [
+    {
+      "source": "crossmix",
+      "path": "Apps/TermView",
+      "name": "TermView",
+      "desc": "文件管理 + 终端 + 虚拟键盘"
+    },
+    {
+      "source": "crossmix",
+      "path": "Apps/WebDesk",
+      "name": "WebDesk",
+      "desc": "浏览器远程终端和文件管理（打开才提供网页，退出即关）。官方仓库可能没有，请加自己的 fork",
+      "extra": true
+    },
+    {
+      "source": "crossmix",
+      "path": "Apps/PortMaster",
+      "name": "PortMaster",
+      "desc": "PC 移植游戏商店（体积大）"
+    },
+    {
+      "source": "crossmix",
+      "path": "Apps/OTA-update",
+      "name": "OTA update",
+      "desc": "在线更新整套 CrossMix"
+    },
+    {
+      "source": "crossmix",
+      "path": "Apps/MusicPlayer",
+      "name": "MusicPlayer",
+      "desc": "GMU 本地音乐播放器"
+    },
+    {
+      "source": "crossmix",
+      "path": "Apps/EbookReader",
+      "name": "Ebook Reader",
+      "desc": "电子书阅读器"
+    },
+    {
+      "source": "crossmix",
+      "path": "Apps/FileManager",
+      "name": "File Manager",
+      "desc": "Dingux 文件管理"
+    },
+    {
+      "source": "crossmix",
+      "path": "Apps/Scraper",
+      "name": "Scraper",
+      "desc": "下载游戏封面"
+    },
+    {
+      "source": "crossmix",
+      "path": "Apps/RetroArch",
+      "name": "RetroArch",
+      "desc": "全能模拟器前端"
+    },
+    {
+      "source": "crossmix",
+      "path": "Apps/VLC",
+      "name": "VLC",
+      "desc": "浏览视频 / 网络串流（mpv）。官方仓库可能没有，请加自己的 fork",
+      "extra": true
+    },
+    {
+      "source": "crossmix",
+      "path": "Apps/Moonlight",
+      "name": "Moonlight",
+      "desc": "串流 PC 游戏。官方仓库可能没有，请加自己的 fork",
+      "extra": true
+    },
+    {
+      "source": "crossmix",
+      "path": "Apps/XMPlayer",
+      "name": "XMPlayer",
+      "desc": "掌机媒体中心。官方仓库可能没有，请加自己的 fork",
+      "extra": true
+    },
+    {
+      "source": "crossmix",
+      "path": "Apps/Musikcube",
+      "name": "Musikcube",
+      "desc": "终端音乐播放。官方仓库可能没有，请加自己的 fork",
+      "extra": true
+    },
+    {
+      "source": "crossmix",
+      "path": "Apps/RenPy",
+      "name": "Ren'Py",
+      "desc": "视觉小说启动器。官方仓库可能没有，请加自己的 fork",
+      "extra": true
+    },
+    {
+      "source": "crossmix",
+      "path": "Emus/PSP",
+      "name": "PSP",
+      "desc": "PPSSPP 模拟器（含核心，体积较大）"
+    },
+    {
+      "source": "crossmix",
+      "path": "Emus/NDS",
+      "name": "NDS",
+      "desc": "Nintendo DS"
+    },
+    {
+      "source": "crossmix",
+      "path": "Emus/3DS",
+      "name": "3DS",
+      "desc": "Azahar / Lime3DS（需自备二进制）。官方仓库可能没有，请加自己的 fork",
+      "extra": true
+    },
+    {
+      "source": "crossmix",
+      "path": "Emus/PS",
+      "name": "PS",
+      "desc": "PlayStation"
+    },
+    {
+      "source": "crossmix",
+      "path": "Emus/GBA",
+      "name": "GBA",
+      "desc": "Game Boy Advance"
+    },
+    {
+      "source": "crossmix",
+      "path": "Emus/SFC",
+      "name": "SFC",
+      "desc": "Super Famicom / SNES"
+    },
+    {
+      "source": "crossmix",
+      "path": "Emus/FC",
+      "name": "FC",
+      "desc": "Famicom / NES"
+    },
+    {
+      "source": "crossmix",
+      "path": "Emus/N64",
+      "name": "N64",
+      "desc": "Nintendo 64"
+    },
+    {
+      "source": "crossmix",
+      "path": "Emus/DC",
+      "name": "DC",
+      "desc": "Dreamcast"
+    },
+    {
+      "source": "crossmix",
+      "path": "Emus/VIDEOS",
+      "name": "VIDEOS",
+      "desc": "mpv 视频（手柄映射）"
+    },
+    {
+      "source": "crossmix",
+      "path": "Emus/MUSIC",
+      "name": "MUSIC",
+      "desc": "mpv 音乐（手柄映射）"
+    },
+    {
+      "source": "crossmix",
+      "path": "Emus/DOOM",
+      "name": "DOOM",
+      "desc": "DOOM 源移植"
+    },
+    {
+      "source": "crossmix",
+      "path": "Emus/TYRQUAKE",
+      "name": "Quake",
+      "desc": "TyrQuake"
+    }
+  ]
+}

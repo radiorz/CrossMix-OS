@@ -1,0 +1,29 @@
+//Play / Pause
+start = enter
+a = enter
+b = enter
+
+//previous track
+l1 = b
+
+//quit
+l3_down = q
+
+//next track
+r1 = n
+
+//quit
+back_up = q
+guide = q
+
+//seek 1 minute forward
+up_down = up
+
+//seek 1 minute backward
+down_down = down
+
+//seek 5 seconds backward
+left = left
+
+//seek 5 seconds forward
+right = right

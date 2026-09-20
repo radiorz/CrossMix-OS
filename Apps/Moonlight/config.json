@@ -1,0 +1,8 @@
+{
+  "label": "Moonlight",
+  "label.ch.lang": "Moonlight 串流",
+  "icon": "icon.png",
+  "iconsel": "icon.png",
+  "launch": "launch.sh",
+  "description": "串流 PC 游戏 (原生手柄)"
+}

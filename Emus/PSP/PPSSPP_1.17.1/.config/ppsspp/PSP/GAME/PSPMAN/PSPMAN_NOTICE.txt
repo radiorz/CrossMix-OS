@@ -1,0 +1,13 @@
+PSPMAN first-party notice
+=========================
+
+Copyright (c) 2026 ObsoleteSony. All rights reserved.
+
+PSPMAN's first-party software, visual identity, and brand material are
+private-source and are not offered under the MIT License or another public
+open-source license. No source-publication commitment attaches to this Alpha
+version.
+
+Third-party components retain their respective licenses. See
+THIRD_PARTY_NOTICES.txt and the LICENSES directory included in this package.
+

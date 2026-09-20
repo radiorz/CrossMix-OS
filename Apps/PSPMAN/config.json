@@ -1,0 +1,8 @@
+{
+  "label": "PSPMAN",
+  "label.ch.lang": "PSPMAN 播放器",
+  "icon": "icon.png",
+  "iconsel": "icon.png",
+  "launch": "launch.sh",
+  "description": "PocketJS Walkman-style FLAC/MP3 player (PPSSPP)"
+}

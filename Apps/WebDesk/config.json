@@ -1,0 +1,8 @@
+{
+  "label": "WebDesk",
+  "label.ch.lang": "网页管理",
+  "icon": "icon.png",
+  "iconsel": "icon.png",
+  "launch": "launch.sh",
+  "description": "打开后用浏览器远程终端和文件管理，退出即关 HTTP"
+}

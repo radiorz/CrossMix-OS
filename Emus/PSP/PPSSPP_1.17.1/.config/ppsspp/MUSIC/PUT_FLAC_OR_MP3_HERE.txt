@@ -1,0 +1,3 @@
+Put stereo 16-bit 44.1 kHz FLAC or 44.1 kHz MP3 here.
+PSPMAN also scans ms0:/PSP/MUSIC/
+Official: https://www.obsoletesony.com/pspman

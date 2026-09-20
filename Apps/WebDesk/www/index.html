@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark">
+  <title>WebDesk</title>
+  <link rel="stylesheet" href="/static/vendor/xterm.css">
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <div id="login" class="screen">
+    <div class="card login-card">
+      <p class="eyebrow">TrimUI Smart Pro</p>
+      <h1>WebDesk</h1>
+      <p class="lead">输入掌机屏幕上的 6 位访问码。关掉机子上的 App 后，这个网页会立刻失效。</p>
+      <form id="login-form">
+        <input id="pin" inputmode="numeric" autocomplete="one-time-code" maxlength="8" placeholder="访问码" autofocus>
+        <button type="submit">进入</button>
+      </form>
+      <p id="login-err" class="err" hidden></p>
+    </div>
+  </div>
+
+  <div id="app" class="screen app" hidden>
+    <header class="top">
+      <div class="brand">
+        <strong>WebDesk</strong>
+        <span id="host-label" class="muted"></span>
+      </div>
+      <nav>
+        <a href="#/" data-route="/">总览</a>
+        <a href="#/files" data-route="/files">文件</a>
+        <a href="#/term" data-route="/term">终端</a>
+      </nav>
+    </header>
+    <main id="view"></main>
+  </div>
+
+  <script src="/static/vendor/xterm.js"></script>
+  <script src="/static/vendor/addon-fit.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

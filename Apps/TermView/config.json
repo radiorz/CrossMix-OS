@@ -1,0 +1,7 @@
+{
+  "label": "TermView",
+  "icon": "icon.png",
+  "iconsel": "icon.png",
+  "launch": "launch.sh",
+  "description": "文件管理 + 终端 + 虚拟键盘"
+}

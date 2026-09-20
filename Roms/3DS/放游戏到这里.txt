@@ -1,0 +1,2 @@
+把 3DS 游戏放到这个目录（.3ds / .3dsx / .cia / .cci 等）。
+模拟器启动器在 Emus/3DS/，二进制需自备：Emus/3DS/bin/azahar

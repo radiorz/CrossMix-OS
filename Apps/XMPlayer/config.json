@@ -1,0 +1,8 @@
+{
+  "label": "XMPlayer",
+  "label.ch.lang": "XMPlayer 媒体中心",
+  "icon": "icon.png",
+  "iconsel": "icon.png",
+  "launch": "launch.sh",
+  "description": "视频 / 音乐 / 图片 (手柄)"
+}

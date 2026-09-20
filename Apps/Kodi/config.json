@@ -1,0 +1,8 @@
+{
+  "label": "Kodi",
+  "label.ch.lang": "Kodi",
+  "icon": "icon.png",
+  "iconsel": "icon.png",
+  "launch": "launch.sh",
+  "description": "媒体中心 (原生手柄，需自备二进制)"
+}

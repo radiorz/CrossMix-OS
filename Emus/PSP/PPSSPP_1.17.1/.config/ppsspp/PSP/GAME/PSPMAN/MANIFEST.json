@@ -1,0 +1,762 @@
+{
+  "bundle_schema": 2,
+  "product_source_commit": "525c538aa56f920a2b8eac7fa12bc56d0843212a",
+  "product_tree": "105f55d6c0406077a75d59613eed8474b2decffd",
+  "source_dirty": false,
+  "build_id": "pspman-0.1.0-alpha.5-525c538aa56f",
+  "ui_commit": "72362ac6cf98cd30598e8969b52a88d988f34317",
+  "app_js": {
+    "bytes": 474923,
+    "sha256": "6c89e38d4b8c0f2916dd6a4bb7bc27a9dd64d155f556407a13a39586d43b7286"
+  },
+  "javascript_packaging": {
+    "schema": 1,
+    "method": "exact-module-comment-spans-preserve-newlines",
+    "canonical_sha256": "7e89377f7070badc9ec9957e2305863cd960d3b5f94e609a75df7057cecc5966",
+    "packed_sha256": "6c89e38d4b8c0f2916dd6a4bb7bc27a9dd64d155f556407a13a39586d43b7286",
+    "packed_bytes": 474923,
+    "packed_prefix": "(() => {\n  \n  var EMPTY_SNAPSHOT = {\n    sequence: 0,\n    playba",
+    "normalized_ast_sha256": "8e8b6cc1734bd865140b37bba39fcc9076d544c416381f58c4cb8cc967b78046",
+    "token_location_sha256": "961da60a1929393bd696dd8a6696cc0a07bd40c6c8efa7dd6e9a14741701d9a0",
+    "modules": [
+      "apps/pspman/src/media-types.ts",
+      "apps/pspman/src/integration/media-service-v2.ts",
+      "node_modules/solid-js/dist/solid.js",
+      ".pocket/pocketjs-overlay/node_modules/solid-js/universal/dist/universal.js",
+      ".pocket/pocketjs-overlay/contracts/spec/spec.ts",
+      ".pocket/pocketjs-overlay/framework/src/host.ts",
+      ".pocket/pocketjs-overlay/framework/src/clock.ts",
+      ".pocket/pocketjs-overlay/framework/src/analog.ts",
+      ".pocket/pocketjs-overlay/framework/src/frame.ts",
+      ".pocket/pocketjs-overlay/framework/src/pak.ts",
+      ".pocket/pocketjs-overlay/framework/src/input.ts",
+      ".pocket/pocketjs-overlay/framework/src/native-tree.ts",
+      ".pocket/pocketjs-overlay/framework/src/renderer-solid.ts",
+      ".pocket/pocketjs-overlay/framework/src/devtools.ts",
+      ".pocket/pocketjs-overlay/framework/src/overlay.ts",
+      ".pocket/pocketjs-overlay/framework/src/styles.ts",
+      ".pocket/pocketjs-overlay/framework/src/touch.ts",
+      ".pocket/pocketjs-overlay/framework/src/gesture.ts",
+      ".pocket/pocketjs-overlay/framework/src/touch-activation.ts",
+      ".pocket/pocketjs-overlay/framework/src/effects.ts",
+      ".pocket/pocketjs-overlay/framework/src/services.ts",
+      ".pocket/pocketjs-overlay/framework/src/styles.generated.ts",
+      ".pocket/pocketjs-overlay/framework/src/index.ts",
+      ".pocket/pocketjs-overlay/framework/src/anim.ts",
+      ".pocket/pocketjs-overlay/framework/src/primitives.ts",
+      ".pocket/pocketjs-overlay/framework/src/hot.ts",
+      ".pocket/pocketjs-overlay/framework/src/platform.ts",
+      ".pocket/pocketjs-overlay/framework/src/tiles.ts",
+      ".pocket/pocketjs-overlay/framework/src/renderer-solid.ts",
+      "apps/pspman/src/integration/native-texture-key.ts",
+      "apps/pspman/src/integration/renderer.ts",
+      "apps/pspman/src/artwork-cache.ts",
+      "apps/pspman/src/app-state.ts",
+      "media/spec/media-surface.ts",
+      "apps/pspman/src/media.ts",
+      "apps/pspman/src/library/home-focus.ts",
+      "apps/pspman/src/playback/now-playing-focus.ts",
+      "apps/pspman/src/playback/time.ts",
+      "apps/pspman/src/playback/resident-track-publication.ts",
+      "apps/pspman/src/playback/presentation-frame.ts",
+      "apps/pspman/src/display-metadata.ts",
+      "apps/pspman/src/display-text.ts",
+      "apps/pspman/src/format.ts",
+      "apps/pspman/src/screens/now-playing-tokens.ts",
+      "apps/pspman/src/screens/cassette-model.ts",
+      "apps/pspman/src/playback/track-presentation.ts",
+      "apps/pspman/src/screens/information-model.ts",
+      "apps/pspman/src/native-backend.ts",
+      "apps/pspman/src/native-preferences.ts",
+      "apps/pspman/src/screens/spectrum-model.ts",
+      "apps/pspman/src/native-controller.ts",
+      "apps/pspman/src/playback/transport.ts",
+      "apps/pspman/src/library/all-tracks.ts",
+      "apps/pspman/src/library/browser.ts",
+      "apps/pspman/src/library/resident-route-publication.ts",
+      "apps/pspman/src/library/resident-playlist-publication.ts",
+      "apps/pspman/src/design-tokens.ts",
+      "apps/pspman/src/brand-typography.ts",
+      "apps/pspman/src/platform-status.ts",
+      "apps/pspman/src/components/player-surface.tsx",
+      "apps/pspman/src/screens/information.tsx",
+      "apps/pspman/src/integration/components.ts",
+      "apps/pspman/src/assets/icons/manifest.ts",
+      "apps/pspman/src/screens/library-home-tokens.ts",
+      "apps/pspman/src/components/transport-controls.tsx",
+      "apps/pspman/src/components/library-player-footer.tsx",
+      "apps/pspman/src/screens/browser-layout.ts",
+      "apps/pspman/src/screens/library-browser.tsx",
+      "apps/pspman/src/screens/library-home.tsx",
+      "apps/pspman/src/screens/library-surface.tsx",
+      "apps/pspman/src/screens/now-playing-artwork.ts",
+      "apps/pspman/src/screens/now-playing-spinner.ts",
+      "apps/pspman/src/screens/now-playing.tsx",
+      "apps/pspman/src/screens/cassette.tsx",
+      "apps/pspman/src/screens/spectrum-bars.tsx",
+      "apps/pspman/src/screens/spectrum.tsx",
+      "apps/pspman/src/screens/about.tsx",
+      "apps/pspman/src/screens/settings.tsx",
+      "apps/pspman/src/app.tsx",
+      "apps/pspman/src/main.tsx"
+    ],
+    "module_list_sha256": "52421cefc697fbbd940160537864b1b433efa64df0ed8217f7ec704fba885d38",
+    "removed": [
+      {
+        "start": 11,
+        "end": 44,
+        "text": "// apps/pspman/src/media-types.ts",
+        "packedOffset": 11
+      },
+      {
+        "start": 3852,
+        "end": 3902,
+        "text": "// apps/pspman/src/integration/media-service-v2.ts",
+        "packedOffset": 3819
+      },
+      {
+        "start": 17236,
+        "end": 17274,
+        "text": "// node_modules/solid-js/dist/solid.js",
+        "packedOffset": 17153
+      },
+      {
+        "start": 46203,
+        "end": 46280,
+        "text": "// .pocket/pocketjs-overlay/node_modules/solid-js/universal/dist/universal.js",
+        "packedOffset": 46082
+      },
+      {
+        "start": 55489,
+        "end": 55539,
+        "text": "// .pocket/pocketjs-overlay/contracts/spec/spec.ts",
+        "packedOffset": 55291
+      },
+      {
+        "start": 60824,
+        "end": 60873,
+        "text": "// .pocket/pocketjs-overlay/framework/src/host.ts",
+        "packedOffset": 60576
+      },
+      {
+        "start": 64858,
+        "end": 64908,
+        "text": "// .pocket/pocketjs-overlay/framework/src/clock.ts",
+        "packedOffset": 64561
+      },
+      {
+        "start": 66060,
+        "end": 66111,
+        "text": "// .pocket/pocketjs-overlay/framework/src/analog.ts",
+        "packedOffset": 65713
+      },
+      {
+        "start": 66760,
+        "end": 66810,
+        "text": "// .pocket/pocketjs-overlay/framework/src/frame.ts",
+        "packedOffset": 66362
+      },
+      {
+        "start": 68645,
+        "end": 68693,
+        "text": "// .pocket/pocketjs-overlay/framework/src/pak.ts",
+        "packedOffset": 68197
+      },
+      {
+        "start": 70693,
+        "end": 70743,
+        "text": "// .pocket/pocketjs-overlay/framework/src/input.ts",
+        "packedOffset": 70197
+      },
+      {
+        "start": 83488,
+        "end": 83544,
+        "text": "// .pocket/pocketjs-overlay/framework/src/native-tree.ts",
+        "packedOffset": 82942
+      },
+      {
+        "start": 101096,
+        "end": 101155,
+        "text": "// .pocket/pocketjs-overlay/framework/src/renderer-solid.ts",
+        "packedOffset": 100494
+      },
+      {
+        "start": 101889,
+        "end": 101942,
+        "text": "// .pocket/pocketjs-overlay/framework/src/devtools.ts",
+        "packedOffset": 101228
+      },
+      {
+        "start": 116432,
+        "end": 116484,
+        "text": "// .pocket/pocketjs-overlay/framework/src/overlay.ts",
+        "packedOffset": 115718
+      },
+      {
+        "start": 116578,
+        "end": 116629,
+        "text": "// .pocket/pocketjs-overlay/framework/src/styles.ts",
+        "packedOffset": 115812
+      },
+      {
+        "start": 117502,
+        "end": 117552,
+        "text": "// .pocket/pocketjs-overlay/framework/src/touch.ts",
+        "packedOffset": 116685
+      },
+      {
+        "start": 118643,
+        "end": 118695,
+        "text": "// .pocket/pocketjs-overlay/framework/src/gesture.ts",
+        "packedOffset": 117776
+      },
+      {
+        "start": 126660,
+        "end": 126721,
+        "text": "// .pocket/pocketjs-overlay/framework/src/touch-activation.ts",
+        "packedOffset": 125741
+      },
+      {
+        "start": 127189,
+        "end": 127241,
+        "text": "// .pocket/pocketjs-overlay/framework/src/effects.ts",
+        "packedOffset": 126209
+      },
+      {
+        "start": 127958,
+        "end": 128011,
+        "text": "// .pocket/pocketjs-overlay/framework/src/services.ts",
+        "packedOffset": 126926
+      },
+      {
+        "start": 128157,
+        "end": 128218,
+        "text": "// .pocket/pocketjs-overlay/framework/src/styles.generated.ts",
+        "packedOffset": 127072
+      },
+      {
+        "start": 138015,
+        "end": 138065,
+        "text": "// .pocket/pocketjs-overlay/framework/src/index.ts",
+        "packedOffset": 136869
+      },
+      {
+        "start": 143488,
+        "end": 143537,
+        "text": "// .pocket/pocketjs-overlay/framework/src/anim.ts",
+        "packedOffset": 142292
+      },
+      {
+        "start": 143820,
+        "end": 143875,
+        "text": "// .pocket/pocketjs-overlay/framework/src/primitives.ts",
+        "packedOffset": 142575
+      },
+      {
+        "start": 144403,
+        "end": 144451,
+        "text": "// .pocket/pocketjs-overlay/framework/src/hot.ts",
+        "packedOffset": 143103
+      },
+      {
+        "start": 144515,
+        "end": 144568,
+        "text": "// .pocket/pocketjs-overlay/framework/src/platform.ts",
+        "packedOffset": 143167
+      },
+      {
+        "start": 144871,
+        "end": 144921,
+        "text": "// .pocket/pocketjs-overlay/framework/src/tiles.ts",
+        "packedOffset": 143470
+      },
+      {
+        "start": 144948,
+        "end": 145007,
+        "text": "// .pocket/pocketjs-overlay/framework/src/renderer-solid.ts",
+        "packedOffset": 143497
+      },
+      {
+        "start": 145800,
+        "end": 145852,
+        "text": "// apps/pspman/src/integration/native-texture-key.ts",
+        "packedOffset": 144290
+      },
+      {
+        "start": 146236,
+        "end": 146278,
+        "text": "// apps/pspman/src/integration/renderer.ts",
+        "packedOffset": 144674
+      },
+      {
+        "start": 146598,
+        "end": 146633,
+        "text": "// apps/pspman/src/artwork-cache.ts",
+        "packedOffset": 144994
+      },
+      {
+        "start": 178397,
+        "end": 178428,
+        "text": "// apps/pspman/src/app-state.ts",
+        "packedOffset": 176758
+      },
+      {
+        "start": 178812,
+        "end": 178842,
+        "text": "// media/spec/media-surface.ts",
+        "packedOffset": 177142
+      },
+      {
+        "start": 178867,
+        "end": 178894,
+        "text": "// apps/pspman/src/media.ts",
+        "packedOffset": 177167
+      },
+      {
+        "start": 190321,
+        "end": 190361,
+        "text": "// apps/pspman/src/library/home-focus.ts",
+        "packedOffset": 188594
+      },
+      {
+        "start": 193232,
+        "end": 193280,
+        "text": "// apps/pspman/src/playback/now-playing-focus.ts",
+        "packedOffset": 191465
+      },
+      {
+        "start": 194613,
+        "end": 194648,
+        "text": "// apps/pspman/src/playback/time.ts",
+        "packedOffset": 192798
+      },
+      {
+        "start": 196192,
+        "end": 196249,
+        "text": "// apps/pspman/src/playback/resident-track-publication.ts",
+        "packedOffset": 194342
+      },
+      {
+        "start": 200099,
+        "end": 200148,
+        "text": "// apps/pspman/src/playback/presentation-frame.ts",
+        "packedOffset": 198192
+      },
+      {
+        "start": 202865,
+        "end": 202903,
+        "text": "// apps/pspman/src/display-metadata.ts",
+        "packedOffset": 200909
+      },
+      {
+        "start": 203565,
+        "end": 203599,
+        "text": "// apps/pspman/src/display-text.ts",
+        "packedOffset": 201571
+      },
+      {
+        "start": 207752,
+        "end": 207780,
+        "text": "// apps/pspman/src/format.ts",
+        "packedOffset": 205724
+      },
+      {
+        "start": 209728,
+        "end": 209776,
+        "text": "// apps/pspman/src/screens/now-playing-tokens.ts",
+        "packedOffset": 207672
+      },
+      {
+        "start": 213111,
+        "end": 213155,
+        "text": "// apps/pspman/src/screens/cassette-model.ts",
+        "packedOffset": 211007
+      },
+      {
+        "start": 227028,
+        "end": 227077,
+        "text": "// apps/pspman/src/playback/track-presentation.ts",
+        "packedOffset": 224880
+      },
+      {
+        "start": 228447,
+        "end": 228494,
+        "text": "// apps/pspman/src/screens/information-model.ts",
+        "packedOffset": 226250
+      },
+      {
+        "start": 235015,
+        "end": 235051,
+        "text": "// apps/pspman/src/native-backend.ts",
+        "packedOffset": 232771
+      },
+      {
+        "start": 261224,
+        "end": 261264,
+        "text": "// apps/pspman/src/native-preferences.ts",
+        "packedOffset": 258944
+      },
+      {
+        "start": 262537,
+        "end": 262581,
+        "text": "// apps/pspman/src/screens/spectrum-model.ts",
+        "packedOffset": 260217
+      },
+      {
+        "start": 263841,
+        "end": 263880,
+        "text": "// apps/pspman/src/native-controller.ts",
+        "packedOffset": 261477
+      },
+      {
+        "start": 336314,
+        "end": 336354,
+        "text": "// apps/pspman/src/playback/transport.ts",
+        "packedOffset": 333911
+      },
+      {
+        "start": 338616,
+        "end": 338656,
+        "text": "// apps/pspman/src/library/all-tracks.ts",
+        "packedOffset": 336173
+      },
+      {
+        "start": 339640,
+        "end": 339677,
+        "text": "// apps/pspman/src/library/browser.ts",
+        "packedOffset": 337157
+      },
+      {
+        "start": 340009,
+        "end": 340065,
+        "text": "// apps/pspman/src/library/resident-route-publication.ts",
+        "packedOffset": 337489
+      },
+      {
+        "start": 341247,
+        "end": 341306,
+        "text": "// apps/pspman/src/library/resident-playlist-publication.ts",
+        "packedOffset": 338671
+      },
+      {
+        "start": 341884,
+        "end": 341919,
+        "text": "// apps/pspman/src/design-tokens.ts",
+        "packedOffset": 339249
+      },
+      {
+        "start": 343444,
+        "end": 343482,
+        "text": "// apps/pspman/src/brand-typography.ts",
+        "packedOffset": 340774
+      },
+      {
+        "start": 343787,
+        "end": 343824,
+        "text": "// apps/pspman/src/platform-status.ts",
+        "packedOffset": 341079
+      },
+      {
+        "start": 347748,
+        "end": 347796,
+        "text": "// apps/pspman/src/components/player-surface.tsx",
+        "packedOffset": 345003
+      },
+      {
+        "start": 355553,
+        "end": 355595,
+        "text": "// apps/pspman/src/screens/information.tsx",
+        "packedOffset": 352760
+      },
+      {
+        "start": 358572,
+        "end": 358616,
+        "text": "// apps/pspman/src/integration/components.ts",
+        "packedOffset": 355737
+      },
+      {
+        "start": 359234,
+        "end": 359277,
+        "text": "// apps/pspman/src/assets/icons/manifest.ts",
+        "packedOffset": 356355
+      },
+      {
+        "start": 361072,
+        "end": 361121,
+        "text": "// apps/pspman/src/screens/library-home-tokens.ts",
+        "packedOffset": 358150
+      },
+      {
+        "start": 361810,
+        "end": 361862,
+        "text": "// apps/pspman/src/components/transport-controls.tsx",
+        "packedOffset": 358839
+      },
+      {
+        "start": 364742,
+        "end": 364797,
+        "text": "// apps/pspman/src/components/library-player-footer.tsx",
+        "packedOffset": 361719
+      },
+      {
+        "start": 370541,
+        "end": 370585,
+        "text": "// apps/pspman/src/screens/browser-layout.ts",
+        "packedOffset": 367463
+      },
+      {
+        "start": 371744,
+        "end": 371790,
+        "text": "// apps/pspman/src/screens/library-browser.tsx",
+        "packedOffset": 368622
+      },
+      {
+        "start": 390890,
+        "end": 390933,
+        "text": "// apps/pspman/src/screens/library-home.tsx",
+        "packedOffset": 387722
+      },
+      {
+        "start": 395057,
+        "end": 395103,
+        "text": "// apps/pspman/src/screens/library-surface.tsx",
+        "packedOffset": 391846
+      },
+      {
+        "start": 397527,
+        "end": 397576,
+        "text": "// apps/pspman/src/screens/now-playing-artwork.ts",
+        "packedOffset": 394270
+      },
+      {
+        "start": 397692,
+        "end": 397741,
+        "text": "// apps/pspman/src/screens/now-playing-spinner.ts",
+        "packedOffset": 394386
+      },
+      {
+        "start": 399335,
+        "end": 399377,
+        "text": "// apps/pspman/src/screens/now-playing.tsx",
+        "packedOffset": 395980
+      },
+      {
+        "start": 419894,
+        "end": 419933,
+        "text": "// apps/pspman/src/screens/cassette.tsx",
+        "packedOffset": 416497
+      },
+      {
+        "start": 426184,
+        "end": 426228,
+        "text": "// apps/pspman/src/screens/spectrum-bars.tsx",
+        "packedOffset": 422748
+      },
+      {
+        "start": 427430,
+        "end": 427469,
+        "text": "// apps/pspman/src/screens/spectrum.tsx",
+        "packedOffset": 423950
+      },
+      {
+        "start": 430572,
+        "end": 430608,
+        "text": "// apps/pspman/src/screens/about.tsx",
+        "packedOffset": 427053
+      },
+      {
+        "start": 432810,
+        "end": 432849,
+        "text": "// apps/pspman/src/screens/settings.tsx",
+        "packedOffset": 429255
+      },
+      {
+        "start": 435072,
+        "end": 435098,
+        "text": "// apps/pspman/src/app.tsx",
+        "packedOffset": 431478
+      },
+      {
+        "start": 478461,
+        "end": 478488,
+        "text": "// apps/pspman/src/main.tsx",
+        "packedOffset": 474841
+      }
+    ]
+  },
+  "production_module_count": 80,
+  "module_list_sha256": "52421cefc697fbbd940160537864b1b433efa64df0ed8217f7ec704fba885d38",
+  "eboot": {
+    "path": "EBOOT.PBP",
+    "role": "eboot",
+    "bytes": 9327236,
+    "sha256": "23e7e692dbf80e7b481353b1d2cc671138a925307c2fe6c292844f7e61ee9131"
+  },
+  "external_runtime_files": [
+    {
+      "path": "assets/japanese.pjpf",
+      "role": "asset",
+      "bytes": 5479209,
+      "sha256": "04b67f0bf5a925cf8ce38149d5087274ecb664d3a773deb38923c96c032fed90"
+    }
+  ],
+  "files": [
+    {
+      "path": "EBOOT.PBP",
+      "role": "eboot",
+      "bytes": 9327236,
+      "sha256": "23e7e692dbf80e7b481353b1d2cc671138a925307c2fe6c292844f7e61ee9131"
+    },
+    {
+      "path": "assets/japanese.pjpf",
+      "role": "asset",
+      "bytes": 5479209,
+      "sha256": "04b67f0bf5a925cf8ce38149d5087274ecb664d3a773deb38923c96c032fed90"
+    },
+    {
+      "path": "README.txt",
+      "role": "documentation",
+      "bytes": 1135,
+      "sha256": "e26f21f681e375cf47f2607eda2405edd2676c4610dc3ac0bbb1637879f8ad80"
+    },
+    {
+      "path": "PSPMAN_NOTICE.txt",
+      "role": "documentation",
+      "bytes": 480,
+      "sha256": "afa7d3a301fe44a699818e7b874ebb4e85f50e4f786a091ff30c02ee532d2221"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "role": "documentation",
+      "bytes": 2480,
+      "sha256": "83016a828263878fb34e4051c4f78dea4a960bb148e9877689e688d213aca976"
+    },
+    {
+      "path": "LICENSES/Inter-OFL-1.1.txt",
+      "role": "license",
+      "bytes": 4472,
+      "sha256": "b3195af0fb14368d1b3b10fb9d3fe503b7163ea083859d2ee553bc74da07c320"
+    },
+    {
+      "path": "LICENSES/NotoSansCJK-OFL-1.1.txt",
+      "role": "license",
+      "bytes": 4280,
+      "sha256": "7d3a8abdfd8cdc4e9379445f9e686ce38301400cb2681cb2713a473595271948"
+    },
+    {
+      "path": "LICENSES/PocketJS-MIT.txt",
+      "role": "license",
+      "bytes": 1096,
+      "sha256": "e20dd19c75803d284b94d12d47b9319925f64d56c225f03dbd8e60967612766c"
+    },
+    {
+      "path": "LICENSES/QuickJS-MIT.txt",
+      "role": "license",
+      "bytes": 1152,
+      "sha256": "2f2a9e35fbaa43435fad0cb8253a1f1d284282ba75b9ce5988bb9b10a5eac94f"
+    },
+    {
+      "path": "LICENSES/SolidJS-MIT.txt",
+      "role": "license",
+      "bytes": 1075,
+      "sha256": "59a76ed2f4a3ebe8d20a58869ef9c09420f796aa179420c8fb916f5557defc9b"
+    },
+    {
+      "path": "LICENSES/libFLAC-BSD.txt",
+      "role": "license",
+      "bytes": 1507,
+      "sha256": "0402184905846e52f6a4f6e0ddd5b66e266f14c2d642c375fa5da4ed357f8751"
+    },
+    {
+      "path": "LICENSES/minimp3-CC0-1.0.txt",
+      "role": "license",
+      "bytes": 6556,
+      "sha256": "6a1ee543e5282cd9061881edf462e6fdab181f328da71fc2c9a6950a80e94d01"
+    },
+    {
+      "path": "LICENSES/libjpeg-turbo-rs-0.8.0-Apache-2.0.txt",
+      "role": "license",
+      "bytes": 10283,
+      "sha256": "d2bffaebbe756166c10ed2452a2371305f19cfaea88d180675b64448ef1ae1e7"
+    },
+    {
+      "path": "LICENSES/libjpeg-turbo-rs-0.8.0-MIT.txt",
+      "role": "license",
+      "bytes": 1069,
+      "sha256": "603a8b2d4280b4a153895dcba6e068a228d5d7947ae128857447b733ddffeba3"
+    },
+    {
+      "path": "LICENSES/quickjs-rs-MIT.txt",
+      "role": "license",
+      "bytes": 1109,
+      "sha256": "55f1fb8a68ce7ea98df324417f66806c705c144431b350aad9c38c22ad4862fd"
+    },
+    {
+      "path": "LICENSES/rust-psp-MIT-BSD.txt",
+      "role": "license",
+      "bytes": 2794,
+      "sha256": "fbb0909635b022a288e914fb26965304eadf347b23115d6ccadb4e6e4aa5cb3c"
+    },
+    {
+      "path": "LICENSES/zune-image-Apache-2.0.txt",
+      "role": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "LICENSES/zune-image-MIT.txt",
+      "role": "license",
+      "bytes": 1073,
+      "sha256": "d30047bca3b516639339a3c279bb84c3483124fb5a9dafe3c75056a85090e745"
+    },
+    {
+      "path": "LICENSES/zune-image-Zlib.txt",
+      "role": "license",
+      "bytes": 859,
+      "sha256": "d201d14804d3bcd3b944147173175e4abfbd838b7c8069b6bd3452496bf13e6c"
+    },
+    {
+      "path": "LICENSES/miniz_oxide-0.8.9-MIT.txt",
+      "role": "license",
+      "bytes": 1212,
+      "sha256": "799e9ca9d179295ef372f25d3769cdda7d25bb2668add6a6a1e22d1e4c678b8d"
+    },
+    {
+      "path": "LICENSES/adler2-2.0.1-MIT.txt",
+      "role": "license",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "path": "LICENSES/encoding_rs-0.8.35-MIT.txt",
+      "role": "license",
+      "bytes": 1053,
+      "sha256": "3fa4ca83dcc9237839b1bdeb2e6d16bdfb5ec0c5ce42b24694d8bbf0dcbef72c"
+    },
+    {
+      "path": "LICENSES/encoding_rs-0.8.35-BSD-3-Clause.txt",
+      "role": "license",
+      "bytes": 1501,
+      "sha256": "838118388fe5c2e7f1dbbaeed13e1c7f3ebf88be91319c7c1d77c18e987d1a50"
+    },
+    {
+      "path": "LICENSES/encoding_rs-0.8.35-COPYRIGHT.txt",
+      "role": "license",
+      "bytes": 713,
+      "sha256": "11789f45bb180841cd362a5eee6789c68ddb573a11105e30768c308a6add0190"
+    },
+    {
+      "path": "LICENSES/cfg-if-1.0.4-MIT.txt",
+      "role": "license",
+      "bytes": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    }
+  ],
+  "feature_sidecars": [],
+  "packaging": {
+    "command": "bun run build:psp:diagnostic",
+    "tool": "scripts/psp.ts + scripts/package-psp-bundle.ts",
+    "creation_timestamp": "2026-09-15T16:06:31.900Z",
+    "assembly": "explicit-allowlist/fresh-staging-directory/verified-rename"
+  }
+}

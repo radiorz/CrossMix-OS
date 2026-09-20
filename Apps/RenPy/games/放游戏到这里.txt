@@ -1,0 +1,1 @@
+把 Ren'Py 游戏文件夹或 launch.sh 放到这个目录。
